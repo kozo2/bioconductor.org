@@ -28,7 +28,7 @@ Header set Cache-Control "max-age=300"
 <FilesMatch "gitlog\.xml$">
 Header set Cache-Control "max-age=30"
 </FilesMatch>
-<FilesMatch "^biocLite\.R$|^BiocInstaller\.dcf$">
+<FilesMatch "^BiocInstaller\.dcf$">
 Header set Cache-Control "max-age=60"
 </FilesMatch>
 <FilesMatch "\.svg$">
