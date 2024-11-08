@@ -32,8 +32,8 @@ versions:
 devel_repos:
 - "bioc"
 - "data/experiment"
-#- "workflows"
-#- "data/annotation"
+- "workflows"
+- "data/annotation"
 
 ## CHANGE this when the build machines change:
 ## also, don't include machines that are not building yet (comment them out)
@@ -43,7 +43,7 @@ active_release_builders:
   mac_monterey: "lconway"
 active_devel_builders:
   linux: "nebbiolo1"
-#  windows: "palomino7"
+  windows: "palomino7"
 #  mac_monterey: "merida1"
 
 ## CHANGE this when the single package builder builds
