@@ -693,6 +693,30 @@ def get_version_from_item_id(item)
   version
 end
 
+def get_reversed_version_from_item_id(item)
+  segs = item.identifier.to_s.split "/"
+  segs.pop
+  version = segs.pop
+  if version == config[:devel_version]
+    vertext = config[:release_version] + " (Release)"
+  else
+    vertext = config[:devel_version] + " (Devel)"
+  end
+  vertext
+end
+
+def get_reversed_url_from_item_id(item)
+  segs = item.identifier.to_s.split "/"
+  segs.pop
+  version = segs.pop
+  if version == config[:devel_version]
+    verurl = "/packages/release/BiocViews.html#___Software"
+  else
+    verurl = "/packages/devel/BiocViews.html#___Software"
+  end
+  verurl
+end
+
 def script_tag_for_package_data(item)
   # todo - something sensible if get_json hasn't been run
   segs = item.identifier.to_s.split "/"
@@ -1035,6 +1059,9 @@ def get_release_url(item)
     item.path.sub(/\/devel\/|\/#{config[:devel_version]}\//, "/release/")
 end
 
+def get_devel_url(item)
+    item.path.sub(/\/release\/|\/#{config[:release_version]}\//, "/devel/")
+end
 
 def get_fragment(package, item, item_rep)
   return \
@@ -1043,7 +1070,8 @@ def get_fragment(package, item, item_rep)
     get_devel_fragment(package, item, item_rep) if is_devel? item
   return \
     get_old_fragment(package, item, item_rep) if is_old? item
-  return ""
+  return \
+    get_release_fragment(package, item, item_rep)
 end
 
 def get_removed_link(item)
@@ -1091,6 +1119,20 @@ EOT
 <a href="#{get_release_url(item)}">#{@package[:Package]}</a>
 EOT
     end
+    str = str.strip() + str2
+    str = str.strip() + ".</p>"
+    str
+end
+
+
+def get_release_fragment(package, item, item_rep)
+    str=<<-"EOT"
+<p>This is the <b>released</b> version of #{@package[:Package]}
+EOT
+   str2=<<-"EOT"
+; for the devel version, see
+<a href="#{get_devel_url(item)}">#{@package[:Package]}</a>
+EOT
     str = str.strip() + str2
     str = str.strip() + ".</p>"
     str

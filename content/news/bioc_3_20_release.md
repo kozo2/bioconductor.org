@@ -1064,7 +1064,7 @@ NEW FEATURES
   allows downstream packages to re-use the search indices in
   their own C++ code.
 
-- Parallelization is now performed using the standard <thread>
+- Parallelization is now performed using the standard &#60;thread&#62;
   library.  This avoids the overhead of forking or starting new
   processes via BiocParallel.
 
@@ -1139,7 +1139,7 @@ NEW FEATURES
   Extra arguments passed thru the ellipsis are forwarded to the
   internal
   calls to matchPattern().
-  [by Aidan Lakshman <ahl27@pitt.edu>]
+  &#91;by Aidan Lakshman &#60;ahl27@pitt.edu&#62;&#93;
 
 SIGNIFICANT USER-VISIBLE CHANGES
 
@@ -1147,7 +1147,7 @@ SIGNIFICANT USER-VISIBLE CHANGES
 
 - A warning in translate() has been elevated to an error because
   AA_ALPHABET is now enforced.
-  [by Aidan Lakshman <ahl27@pitt.edu>]
+  &#91;by Aidan Lakshman &#60;ahl27@pitt.edu&#62;&#93;
 
 - man/XStringSetList-class.Rd previously said that "DNAStringSetList
   and
@@ -1155,19 +1155,19 @@ SIGNIFICANT USER-VISIBLE CHANGES
   of
   Biostrings includes BStringSetList and RNAStringSetList constructors.
   This has been updated.
-  [by Aidan Lakshman <ahl27@pitt.edu>]
+  &#91;by Aidan Lakshman &#60;ahl27@pitt.edu&#62;&#93;
 
 BUG FIXES
 
 - replaceAmbiguities() now checks to ensure input is DNA or RNA. This
   previously caused some odd behavior with AA input.
-  [by Aidan Lakshman <ahl27@pitt.edu>]
+  &#91;by Aidan Lakshman &#60;ahl27@pitt.edu&#62;&#93;
 
 - Fix bug in consensusMatrix() when input has length zero.
-  [by Aidan Lakshman <ahl27@pitt.edu>]
+  &#91;by Aidan Lakshman &#60;ahl27@pitt.edu&#62;&#93;
 
 - Get rid of spurious warning in readQualityScaledDNAStringSet().
-  [by Aidan Lakshman <ahl27@pitt.edu>]
+  &#91;by Aidan Lakshman &#60;ahl27@pitt.edu&#62;&#93;
 
 [bluster](/packages/bluster)
 -------
@@ -2932,7 +2932,7 @@ represented by distance scores.
 
 - Renamed the goSimilarity() function to goDistance() to better
 indicated that this is a distance rather than a similarity score.
-Also scaled all scores to the [0, 1] interval.
+Also scaled all scores to the &#91;0, 1&#93; interval.
 
 - Fixed the normalization function in the getKappaDistanceMatrix()
 function.
@@ -3843,23 +3843,23 @@ BUG FIXES
 
                        Changes in version 1.15.10                       
 
-- [Major] Name of the two arguments for lefser function is changed
+- &#91;Major&#93; Name of the two arguments for lefser function is changed
 from groupCol and blockCol to classCol and subclassCol,
 respectively.
-- [Major] Defunct expr argument in lefser
-- [New function] lefserPlotFeat plots the histogram of relative
+- &#91;Major&#93; Defunct expr argument in lefser
+- &#91;New function&#93; lefserPlotFeat plots the histogram of relative
 abundance (in the (0,1) interval) of the selected features
-- [New function] lefserPlotClad draws the cladogram of the
+- &#91;New function&#93; lefserPlotClad draws the cladogram of the
 significantly more abundant taxa and their LDA scores
-- [New function] lefserClades runs the lefser, returning additional
+- &#91;New function&#93; lefserClades runs the lefser, returning additional
 information (e.g., agglomerates the features abundance at different
 taxonomic ranks) required for lefserPlotClad.
-- [New feature] Visualization functions are using a color-blind
+- &#91;New feature&#93; Visualization functions are using a color-blind
 friendly color palette by default.
 
                        Changes in version 1.15.7                        
 
-- [Major algorithm update] We remove the step (createUniqueValues) in
+- &#91;Major algorithm update&#93; We remove the step (createUniqueValues) in
 the lefser function, which used to add small random numbers to make
 all the values unique. Potential issues (e.g., LDA) due to excess 0s
 should be managed by filtering out low abundant features from the
@@ -3869,9 +3869,9 @@ input.
 
 - The column names of lefser output is changed to c("features",
 "scores") from c("Names", "scores")
-- [New feature] The get_terminal_nodes function to select only the
+- &#91;New feature&#93; The get_terminal_nodes function to select only the
 terminal nodes of the hierarchical features (e.g., taxonomic data).
-- [Major algorithm update] Add an option for adjusting the first
+- &#91;Major algorithm update&#93; Add an option for adjusting the first
 Kruskal-Wallis Rank Sum Test and Wilcoxon-Rank Sum test for multiple
 hypothesis testing through the new argument method in the lefser
 function.
@@ -4858,7 +4858,7 @@ New features
 - added J Gilis, D Risso, L Clement as authors
 
 - differential detection with 'pbDS(..., method="DD")' or 'pbDD()'
-  & stagewise testing [Gilis et al.], plus corresponding vignette
+  & stagewise testing &#91;Gilis et al.&#93;, plus corresponding vignette
 
 - replace 'aes_string()' in 'ggplot()' by '.data$.' from 'rlang'
 
@@ -6183,7 +6183,7 @@ it.
 
 NEW FEATURES
 
-- Linear subsetting of a SVT_SparseArray object e.g. svt[11:13].
+- Linear subsetting of a SVT_SparseArray object e.g. svt&#91;11:13&#93;.
 
 - Add the 'dim' and 'dimnames' arguments to SVT_SparseArray()
   constructor
@@ -6221,7 +6221,7 @@ NEW FEATURES
 
 - Add pmin() and pmax() methods for SparseArray objects.
 
-- aperm(<SVT_SparseArray>) now supports S4Arrays::aperm2() extended
+- aperm(&#60;SVT_SparseArray&#62;) now supports S4Arrays::aperm2() extended
   semantic. See '?S4Arrays::aperm2' for details.
 
 - Add 'dimnames' argument to randomSparseArray(), poissonSparseArray(),
@@ -6276,13 +6276,13 @@ BUG FIXES
 - Fix integer overflow in nzwhich() methods for CsparseMatrix and
   RsparseMatrix objects when the object has a length >= 2^31.
 
-- Fix bug in coercion from COO_SparseMatrix to [d|l]gCMatrix or
-  [d|l]gRMatrix when the 'nzcoo' slot of the COO_SparseMatrix object
+- Fix bug in coercion from COO_SparseMatrix to &#91;d|l&#93;gCMatrix or
+  &#91;d|l&#93;gRMatrix when the 'nzcoo' slot of the COO_SparseMatrix object
   contains duplicates.
 
 - Make sure that coercion from CsparseMatrix to SVT_SparseMatrix works
-  on any [d|l|n]gCMatrix **derivative** and not just on a
-  [d|l|n]gCMatrix
+  on any &#91;d|l|n&#93;gCMatrix **derivative** and not just on a
+  &#91;d|l|n&#93;gCMatrix
   **instance**.
 
 [sparseMatrixStats](/packages/sparseMatrixStats)
