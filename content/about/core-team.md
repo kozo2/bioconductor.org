@@ -31,7 +31,7 @@
   </div>
   <div class="gallery-card">
     <img src="/images/coreTeamPic/JenniferWokaty.png"
-          alt="Jennifer Wokaty" title="Jennifer Wokaty"/>
+          alt="Andres Wokaty" title="Andres Wokaty"/>
     Jennifer Wokaty
   </div>
   <div class="gallery-card">
