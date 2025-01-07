@@ -196,6 +196,8 @@ The Community Advisory Board meets monthly. Minutes of the last meeting are made
   [2024-08-08](2024-08-08-minutes.pdf),
   [2024-09-12](2024-09-12-minutes.pdf)
   [2024-10-10](2024-10-10-minutes.pdf)
+  [2024-11-14](2024-11-14-minutes.pdf)
+  [2024-12-12](2024-12-12-minutes.pdf)
 - **2023:**  [2023-12-14](2023-12-14-minutes.pdf),
   [2023-11-09](2023-11-09-minutes.pdf),
   [2023-10-12](2023-10-12-minutes.pdf),
