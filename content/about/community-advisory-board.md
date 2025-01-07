@@ -103,7 +103,7 @@ The Community Advisory Board governance document ([PDF][1]) outlines membership,
   <div class="gallery-card">
     <img src="/images/cab/LluisRevilla.png"
             alt="Lluís Revilla Sancho" title="Lluís Revilla Sancho"/>
-    <a href="https://llrs.dev">Lluís Revilla Sancho</a>, .
+    <a href="https://llrs.dev">Lluís Revilla Sancho</a>, Roche, Spain.
   </div>
   <div class="gallery-card">
     <img src="/images/cab/KevinRueAlbrecht.png"
