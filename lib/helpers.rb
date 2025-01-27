@@ -1637,16 +1637,27 @@ def latest_packages(repo)
     tbl_str = "<table>\n"
     trunc_pkgs.each do |pkg|
       short_url = "https://bioconductor.org/packages/#{pkg}/"
-      long_url = "http://bioconductor.org/packages/devel/#{base_url}/html/#{pkg}.html"
-
-      url = URI.parse(long_url)
-      req = Net::HTTP.new(url.host, url.port)
-      res = req.request_head(url.path)
-      if res.code == "200"
-          line = "<tr><td><a href= #{short_url} > #{pkg} </a></td></tr>\n"
+      long_url = "https://bioconductor.org/packages/devel/#{base_url}/html/#{pkg}.html"
+      
+      res = check_mirror_url(long_url)
+      if res == "1"
+          line = "<tr><td><a href= #{short_url} > #{pkg} </a></td>"
       else
-          line = "<tr><td> #{pkg} </td></tr>\n"
+          line = "<tr><td> #{pkg} </td>"
       end
+      dev_ver = config[:devel_version] 
+      json_file = "assets/packages/json/#{dev_ver}/#{base_url}/packages.json"
+      f = File.open(json_file)
+      json = f.readlines.join
+      f.close
+      hsh = JSON.parse(json)
+      if !hsh.keys.include?("#{pkg}")
+        line += "<td> . </td>"
+      else
+        pkg_data_title = hsh["#{pkg}"]["Title"]
+        line += "<td> #{pkg_data_title} </td>"
+      end      
+      line += "</tr>\n"
       tbl_str += line
     end
     tbl_str += "</table>"
