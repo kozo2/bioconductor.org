@@ -36,7 +36,13 @@ var displayPackages = function (packageList, nodeName) {
   };
 
   html +=
-    "<table id='biocViews_package_table'><thead><tr><th>Package</th><th>Maintainer</th><th>Title</th><th>Rank</th></tr></thead><tbody>\n";
+    "<table id='biocViews_package_table' aria-label='Packages table'>" +
+    "<thead><tr role='row'>" +
+    "<th scope='col'>Package</th>" +
+    "<th scope='col'>Maintainer</th>" +
+    "<th scope='col'>Title</th>" +
+    "<th scope='col'>Rank</th>" +
+    "</tr></thead><tbody>\n";
 
   var tableData = "";
   for (var i = 0; i < packageList.length; i++) {
@@ -44,15 +50,15 @@ var displayPackages = function (packageList, nodeName) {
     var pkg = packageList[i];
     var url = getHostUrl() + "/" + map[category] + "/html/" + pkg + ".html";
     //tableData += '<tr class="'+rowClass+'" id="pkg_' + pkg + '">\n';
-    tableData += '<tr id="pkg_' + pkg + '">\n';
-    tableData += '\t<td><a href="' + url + '">' + pkg + "</a></td>\n";
+    tableData += '<tr role="row" id="pkg_' + pkg + '">\n';
+    tableData += '\t<td><a href="' + url + '" aria-label="View details about ' + pkg + '">' + pkg + "</a></td>\n";
     var cleanMaintainer = packageInfo[pkg]["Maintainer"].replace(
       / *<[^>]*>/g,
       ""
     );
-    tableData += "\t<td>" + cleanMaintainer + "</td>\n";
-    tableData += "\t<td>" + packageInfo[pkg]["Title"] + "</td>\n";
-    tableData += "\t<td>" + packageInfo[pkg]["Rank"] + "</td>\n";
+    tableData += '\t<td role="cell">' + cleanMaintainer + "</td>\n";
+    tableData += '\t<td role="cell">' + packageInfo[pkg]["Title"] + "</td>\n";
+    tableData += '\t<td role="cell">' + packageInfo[pkg]["Rank"] + "</td>\n";
     tableData += "</tr>\n";
   }
   html += tableData;
