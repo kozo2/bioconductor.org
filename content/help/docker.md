@@ -14,6 +14,8 @@ or [Microsoft Azure Container Instances](https://azure.microsoft.com/en-us/servi
 
 ## Quick start
 
+### Docker commands
+
 1.  [Install Docker Engine](https://docs.docker.com/engine/install/) or
   [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
@@ -35,6 +37,22 @@ the Docker container and your host machine. NOTE: password cannot
 be `rstudio`.
 
 The user is logged into the `rstudio` user by default.
+
+### The `bioc-run` script
+
+The `bioc-run` script is a convenience script that can be used to run
+Bioconductor Docker images. The script is available at
+<https://github.com/Bioconductor/bioc-run>. Use `bioc-run -h` or
+see the `README.md` for additional details.
+
+Execute the `bioc-run` script to create a container from the `RELEASE_3_20`
+Bioconductor Docker image:
+
+	./bioc-run -v RELEASE_3_20
+
+Note that the script also mounts a local directory to the Docker image to
+persist installed packages between sessions. It also maps a local directory to
+the `/home/rstudio` directory in the Docker image.
 
 <a name="intro"></a>
 
