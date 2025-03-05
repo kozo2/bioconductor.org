@@ -29,19 +29,14 @@ href="https://bioconductor.org/about/code-of-conduct/">Code of Conduct</a>
  
 <h2 class="format-bold"> Package Reviewers</h2>
 
-<div>Oliver Crook</div>
 <div>Helena Crowell</div>
-<div>Laurent Gatto</div>
 <div>Peter Hickey</div>
 <div>Kayla Interdonato</div>
 <div>Jianhong Ou</div>
-<div>Hervé Pagès</div>
 <div>Marcel Ramos</div>
 <div>Mireia Ramos-Rodriguez</div>
-<div>Alvaro Sanchez</div>
 <div>Jacques Serizay</div>
 <div>Dario Strbenac</div>
-<div>Luke Zappia</div>
 <p><br></p>
 <p><br></p>
 <p class="text-large">Current Package Review Administrators</p>
@@ -60,6 +55,10 @@ href="https://bioconductor.org/about/code-of-conduct/">Code of Conduct</a>
 
 ## Past Package Reviewers
 <ul class="inline_list">
+<div>Hervé Pagès</div>
+<div>Luke Zappia</div>
+<div>Laurent Gatto</div>
+<div>Oliver Crook</div>
 <li>Nils Eling</li>
 <li>Martin Morgan</li>
 <li>Nitesh Turaga</li>
