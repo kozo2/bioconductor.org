@@ -55,10 +55,10 @@ href="https://bioconductor.org/about/code-of-conduct/">Code of Conduct</a>
 
 ## Past Package Reviewers
 <ul class="inline_list">
-<div>Hervé Pagès</div>
-<div>Luke Zappia</div>
-<div>Laurent Gatto</div>
-<div>Oliver Crook</div>
+<li>Hervé Pagès</li>
+<li>Luke Zappia</li>
+<li>Laurent Gatto</li>
+<li>Oliver Crook</li>
 <li>Nils Eling</li>
 <li>Martin Morgan</li>
 <li>Nitesh Turaga</li>
