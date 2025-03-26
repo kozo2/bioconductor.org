@@ -36,12 +36,12 @@ var displayPackages = function (packageList, nodeName) {
   };
 
   html +=
-    "<table id='biocViews_package_table' aria-label='Packages table'>" +
+    "<table role='table' id='biocViews_package_table' aria-label='Packages table' tabindex='0'>\n" +
     "<thead><tr role='row'>" +
-    "<th scope='col'>Package</th>" +
-    "<th scope='col'>Maintainer</th>" +
-    "<th scope='col'>Title</th>" +
-    "<th scope='col'>Rank</th>" +
+    "<th role='columnheader' scope='col'>Package</th>" +
+    "<th role='columnheader' scope='col'>Maintainer</th>" +
+    "<th role='columnheader' scope='col'>Title</th>" +
+    "<th role='columnheader' scope='col'>Rank</th>" +
     "</tr></thead><tbody>\n";
 
   var tableData = "";
