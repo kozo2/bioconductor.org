@@ -131,8 +131,9 @@ Please check the size of what will be transferred with e.g. `rsync -e "ssh"
 -avn bioc-rsync@master.bioconductor.org:release` and make sure you have enough
 room on your local disk before you start.
 
-It is recommended that package repositories be synchronized once per
-day, scheduled with cron.
+It is recommended that package repositories be synchronized in release once or
+twice a month as release changes less frequently. Devel branch may be synced
+more often if necessary but no more than once a week.
 
 **Begin** using your new local repository by making it accessible on your
 webserver. See the **"contriburl"** option to **install.packages()** (utils)
