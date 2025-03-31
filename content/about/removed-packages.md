@@ -1087,12 +1087,12 @@ No packages were removed with this release.
 ## Packages removed with Bioconductor 1.8 release
 
 <ul class="inline_list">
-<li><a href="/packages/bioc/1.7/src/contrib/html/msbase.html">msbase</a></li>
-<li><a href="/packages/bioc/1.7/src/contrib/html/ideogram.html">ideogram</a></li>
+<li>msbase</li>
+<li>ideogram</li>
 </ul>
 
 ## Packages removed with Bioconductor 1.7 release
 
 <ul class="inline_list">
-<li><a href="/packages/bioc/1.6/src/contrib/html/mscalib.html">mscalib</a></li>
+<li>mscalib</li>
 </ul>
