@@ -200,12 +200,15 @@ end
 
 def filter_emails(str)
   return str if str.nil?
-  emails = str.scan( /(<[^>]*>)/).flatten
+  emails = str.scan(/(<[^>]*>)|(\((?:ORCID:\s*)?<[^>]+>\))/).flatten.compact
   for email in emails
     if email.include? "orcid"
-      email2="<a title='orcid' href='"+email[1...-1]+"'><img src='/images/orcid.png'/></a>"
-      email1="("+email+")"
-      str = str.gsub(email1, email2)
+      url_match = email.match(/<([^>]+)>/)
+      if url_match
+        orcid_url = url_match[1]
+        email2 = "<a title='orcid' href='#{orcid_url}'><img src='/images/orcid.png'/></a>"
+        str = str.gsub(email, email2)
+      end
     else
       str = str.gsub(email, munge_email(email))
     end
