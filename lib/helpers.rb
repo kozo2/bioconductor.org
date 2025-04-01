@@ -206,7 +206,15 @@ def filter_emails(str)
       url_match = email.match(/<([^>]+)>/)
       if url_match
         orcid_url = url_match[1]
-        email2 = "<a title='orcid' href='#{orcid_url}'><img src='/images/orcid.png'/></a>"
+        orcid_id = orcid_url.split('/').last
+
+         email2 = <<-HTML
+           <a href="#{orcid_url}" title="ORCID iD" class="orcid-container">
+             <img src="/images/orcid.png" alt="ORCID iD" class="orcid-icon">
+             <span class="orcid-expanded"> ORCID: #{orcid_id} </span>
+           </a>
+         HTML
+
         str = str.gsub(email, email2)
       end
     else
