@@ -3,7 +3,71 @@
 A list of packages removed from Bioconductor along
 with their last-available landing pages.
 
-## Packages deprecated in Bioconductor 3.20 (to be removed in 3.21)
+## Packages deprecated in Bioconductor 3.21 (to be removed in 3.22)
+
+Software Packages:
+<ul class="inline_list">
+<li><a href="/packages/3.21/bioc/html/Director.html">Director</a></li>
+<li><a href="/packages/3.21/bioc/html/erma.html">erma</a></li>
+<li><a href="/packages/3.21/bioc/html/girafe.html">girafe</a></li>
+<li><a href="/packages/3.21/bioc/html/RBioinf.html">RBioinf</a></li>
+<li><a href="/packages/3.20/bioc/html/Rtreemix.html">Rtreemix</a></li>
+<li><a href="/packages/3.20/bioc/html/synapter.html">synapter</a></li>
+<li><a href="/packages/3.21/bioc/html/zlibbioc.html">zlibbioc</a></li>
+<li><a href="/packages/3.20/bioc/html/AneuFinder.html">AneuFinder</a></li>
+<li><a href="/packages/3.19/bioc/html/BEARscc.html">BEARscc</a></li>
+<li><a href="/packages/3.20/bioc/html/CBEA.html">CBEA</a></li>
+<li><a href="/packages/3.20/bioc/html/chromstaR.html">chromstaR</a></li>
+<li><a href="/packages/3.18/bioc/html/coMET.html">coMET</a></li>
+<li><a href="/packages/3.19/bioc/html/crossmeta.html">crossmeta</a></li>
+<li><a href="/packages/3.20/bioc/html/dce.html">dce</a></li>
+<li><a href="/packages/3.19/bioc/html/DeProViR.html">DeProViR</a></li>
+<li><a href="/packages/3.19/bioc/html/DIAlignR.html">DIAlignR</a></li>
+<li><a href="/packages/3.20/bioc/html/GeneGeneInteR.html">GeneGeneInteR</a></li>
+<li><a href="/packages/3.20/bioc/html/genoCN.html">genoCN</a></li>
+<li><a href="/packages/3.19/bioc/html/gespeR.html">gespeR</a></li>
+<li><a href="/packages/3.19/bioc/html/GraphPAC.html">GraphPAC</a></li>
+<li><a href="/packages/3.19/bioc/html/HTSeqGenie.html">HTSeqGenie</a></li>
+<li><a href="/packages/3.19/bioc/html/iPAC.html">iPAC</a></li>
+<li><a href="/packages/3.20/bioc/html/MAGeCKFlute.html">MAGeCKFlute</a></li>
+<li><a href="/packages/3.17/bioc/html/netDx.html">netDx</a></li>
+<li><a href="/packages/3.19/bioc/html/NeuCA.html">NeuCA</a></li>
+<li><a href="/packages/3.19/bioc/html/PanViz.html">PanViz</a></li>
+<li><a href="/packages/3.19/bioc/html/pareg.html">pareg</a></li>
+<li><a href="/packages/3.19/bioc/html/paxtoolsr.html">paxtoolsr</a></li>
+<li><a href="/packages/3.20/bioc/html/PICS.html">PICS</a></li>
+<li><a href="/packages/3.20/bioc/html/PING.html">PING</a></li>
+<li><a href="/packages/3.19/bioc/html/QuartPAC.html">QuartPAC</a></li>
+<li><a href="/packages/3.19/bioc/html/ReactomeContentService4R.html">ReactomeContentService4R</a></li>
+<li><a href="/packages/3.16/bioc/html/RGMQL.html">RGMQL</a></li>
+<li><a href="/packages/3.19/bioc/html/SpacePAC.html">SpacePAC</a></li>
+<li><a href="/packages/3.19/bioc/html/staRank.html">staRank</a></li>
+<li><a href="/packages/3.19/bioc/html/STdeconvolve.html">STdeconvolve</a></li>
+<li><a href="/packages/3.19/bioc/html/supraHex.html">supraHex</a></li>
+<li><a href="/packages/3.20/bioc/html/trigger.html">trigger</a></li>
+<li><a href="/packages/3.19/bioc/html/TypeInfo.html">TypeInfo</a></li>
+</ul>
+
+Experiment Data Packages:
+<ul class="inline_list">
+<li><a href="/packages/3.21/data/experiment/html/parathyroidSE.html">parathyroidSE</a></li>
+<li><a href="/packages/3.21/data/experiment/html/benchmarkfdrData2019.html">benchmarkfdrData2019</a></li>
+<li><a href="/packages/3.21/data/experiment/html/synapterdata.html">synapterdata</a></li>
+</ul>
+
+Annotation Data Packages:
+<ul class="inline_list">
+<li><a href="/packages/3.21/data/annotation/html/mirbase.db.html">mirbase.db</a></li>
+<li><a href="/packages/3.21/data/annotation/html/targetscan.Hs.eg.db.html">targetscan.Hs.eg.db</a></li>
+<li><a href="/packages/3.21/data/annotation/html/targetscan.Mm.eg.db.html">targetscan.Mm.eg.db</a></li>
+</ul>
+
+Workflow Packages:
+<ul class="inline_list">
+<li><a href="/packages/3.21/workflows/html/BiocMetaWorkflow.html">BiocMetaWorkflow</a></li>
+</ul>
+
+## Packages removed with Bioconductor 3.21 release
 
 Software Packages:
 <ul class="inline_list">
@@ -17,7 +81,6 @@ Software Packages:
 <li><a href="/packages/3.18/bioc/html/brainflowprobes.html">brainflowprobes</a></li>
 <li><a href="/packages/3.16/bioc/html/BRGenomics.html">BRGenomics</a></li>
 <li><a href="/packages/3.18/bioc/html/CellaRepertorium.html">CellaRepertorium</a></li>
-<li><a href="/packages/3.18/bioc/html/HTqPCR.html">HTqPCR</a></li>
 <li><a href="/packages/3.18/bioc/html/microbiomeMarker.html">microbiomeMarker</a></li>
 <li><a href="/packages/3.17/bioc/html/MQmetrics.html">MQmetrics</a></li>
 <li><a href="/packages/3.18/bioc/html/nanotatoR.html">nanotatoR</a></li>
