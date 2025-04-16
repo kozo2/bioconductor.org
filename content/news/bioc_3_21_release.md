@@ -5770,7 +5770,7 @@ in Bioc 3.20):
 
 - ATACCoGAPS, BiocOncoTK, biodbExpasy, biodbKegg, brainflowprobes, BRGenomics, CellaRepertorium, microbiomeMarker, MQmetrics, nanotatoR, netOmics, Pi, polyester, psygenet2r, RandomWalkRestartMH, rDGIdb, Risa, RNAinteract, single, SummarizedBenchmark
   
-- Please note:  HTqPCR, previously announced as deprecated in 3.20, has been updated and remain in Bioconductor. 
+- Please note:  HTqPCR, previously announced as deprecated in 3.20, has been updated and remains in Bioconductor. 
 
 Thirty nine software packages are deprecated in this release and will be removed in Bioc 3.22:
 
@@ -5790,7 +5790,7 @@ removed in Bioc 3.22:
 
 **ANNOTATION DATA:** 
 
-No annotation packages were removed from this release:
+No annotation packages were removed from this release.
 
 Three annotation packages are deprecated in this release and will be removed in
 3.22:
@@ -5802,7 +5802,9 @@ Three annotation packages are deprecated in this release and will be removed in
 
 No workflow packages were removed from this release.
 
-One workflow package was deprecated in this release: BiocMetaWorkflow
+One workflow package was deprecated in this release:
+
+- BiocMetaWorkflow
 
 **BOOKS:**
 
