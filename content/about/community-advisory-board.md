@@ -187,7 +187,8 @@ To see what has been discussed at past meetings, you can find the Meeting minute
 The Community Advisory Board meets monthly. Minutes of the last meeting are made available after being approved by the board at the following meeting. The first meeting for which public minutes were maintained was on 9 April, 2020.
 - **2025:**  [2025-01-09](2025-01-09-minutes.pdf),
   [2025-02-13](2025-02-13-minutes.pdf),
-  [2025-03-13](2025-03-13-minutes.pdf)
+  [2025-03-13](2025-03-13-minutes.pdf),
+  [2025-04-10 Joint CAB/TAB](2025-04-10-minutes-joint.pdf)
 - **2024:**  [2024-01-11](2024-01-11-minutes.pdf),
   [2024-02-08](2024-02-08-minutes.pdf),
   [2024-03-14](2024-03-14-minutes.pdf),
