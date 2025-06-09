@@ -138,7 +138,7 @@ In addition to asking new questions, you can also continue the discussion follow
 
 ### How do I join the CAB?
 
-There is an annual expression of interest process inviting new members to apply to join the CAB. This is announced on the Bioconductor support site and relevant Bioconductor community slack channel. Current CAB members vote on the applications received to select new members. The board is keen to have representatives from diverse backgrounds (i.e. different geographical and cultural backgrounds, genders, statistical analysis interests, career stages and experience levels).
+There is an annual expression of interest process inviting new members to apply to join the CAB. This is announced on the Bioconductor support site and relevant Bioconductor community Zulip channel. Current CAB members vote on the applications received to select new members. The board is keen to have representatives from diverse backgrounds (i.e. different geographical and cultural backgrounds, genders, statistical analysis interests, career stages and experience levels).
 Also: Community members interested but not elected to CAB, or that would like more specialized work would be encouraged to volunteer to be part of a working group organized by the CAB/TAB -- there is a soon to be released page where we will list the active and inactive (needing someone to lead) working groups and for community members to suggest working groups.
 
 Nominations for 2024 CAB board members are occurring now. Please fill out the
@@ -146,7 +146,7 @@ following [google form](https://docs.google.com/forms/d/e/1FAIpQLSc6qcBo_NN2q0bb
 
 ### Is there a recommended way for community members to give suggestions to the CAB?
 
-We are happy to receive suggestions and feedback and recommend reaching us via email (cab@bioconductor.org) or by messaging us on the #community-advisory-board channel of the Bioconductor community slack ([slack.bioconductor.org](https://slack.bioconductor.org/)).
+We are happy to receive suggestions and feedback and recommend reaching us via email (cab@bioconductor.org) or by messaging us on the #community-advisory-board channel of the Bioconductor community chat ([chat.bioconductor.org](https://chat.bioconductor.org/)).
 (See also: A for the previous Q.)
 
 ### Are there any big new CAB projects or plans on the horizon?
@@ -255,7 +255,7 @@ If you would like to contact the Community Advisory Board please email: cab at b
 
 <img src="/images/cab/cab.png" alt="CAB sticker" />
 
-There is also a community-advisory-board channel on the [Bioconductor community slack](https://slack.bioconductor.org/)
+There is also a community-advisory-board channel on the [Bioconductor community chat](https://chat.bioconductor.org/)
 
 ## Past Members
 

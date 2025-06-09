@@ -20,7 +20,7 @@ Note, mentors are not expected to be co-authors of the resulting package or any 
 
 ### Join as a mentor (currently closed)
 
-Mentors should have 2 or more R packages in Bioconductor (release or accepted in devel) and should be active in the Bioconductor developer community (for example active on the Bioconductor Slack chanel, or on the [support site](https://support.bioconductor.org).
+Mentors should have 2 or more R packages in Bioconductor (release or accepted in devel) and should be active in the Bioconductor developer community (for example active on the [Bioconductor Chat](https://chat.bioconductor.org)), or on the [support site](https://support.bioconductor.org).
 Register your interest using this [form](https://forms.gle/AwJqaVFqsDcAXkpv9).
 
 Mentor applications for the 2021-2022 cycle of the Bioconductor Mentorship Programme have closed.
@@ -48,5 +48,5 @@ We are excited to announce our first group of 6 mentors are [Federico Marini](ht
 
 ## More information
 
-For more information about the program see the [Bioconductor New Developer Mentorship and Assistance statement](https://docs.google.com/document/d/1Q-Hxmy0ZcKzKSbB-dtg02gJRlZ0Vi6WNOTF-W3bwjmY/edit?usp=sharing). For announcements or to contact the program, please message the team via the `#developers-mentorship` slack channel on [Community-Bioc Slack](https://slack.bioconductor.org/). 
+For more information about the program see the [Bioconductor New Developer Mentorship and Assistance statement](https://docs.google.com/document/d/1Q-Hxmy0ZcKzKSbB-dtg02gJRlZ0Vi6WNOTF-W3bwjmY/edit?usp=sharing). For announcements or to contact the program, please message the team via the `#developers-mentorship` channel on our [Community Chat](https://chat.bioconductor.org/). 
 

@@ -4,7 +4,7 @@
 
 We are currently looking for someone interested in taking over organizing this
 initiative. Please reach out on the developer-form channel on the [Bioconductor
-slack](https://slack.bioconductor.org/) if interested.
+chat](https://chat.bioconductor.org/) if interested.
 
 ## Overview
 
@@ -25,7 +25,7 @@ Principally people involved in developing and maintaining Bioconductor packages,
 
 ## Schedule
 
-The forum takes place on the third Thursday of each month. Timing is typically 09:00 PDT / 12:00 EDT / 18:00 CEST and the meetings last approximately one hour. We announce upcoming meetings on the Bioconductor developer mailing list, Slack, and Twitter.
+The forum takes place on the third Thursday of each month. Timing is typically 09:00 PDT / 12:00 EDT / 18:00 CEST and the meetings last approximately one hour. We announce upcoming meetings on the Bioconductor developer mailing list, Zulip, and Twitter.
 
 ## Previous Meetings
 

@@ -5,7 +5,7 @@ Last Updated: 30 January 2025
 
 ## Introduction
 
-Bioconductor is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you interact with our services, including our GitHub repository, website, support site, developer mailing list, Slack, conference registrations, and workshop site. While Bioconductor is a global community, the core team is based in the United States, and data is primarily stored and processed there.
+Bioconductor is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you interact with our services, including our GitHub repository, website, support site, developer mailing list, Zulip, conference registrations, and workshop site. While Bioconductor is a global community, the core team is based in the United States, and data is primarily stored and processed there.
 
 **1. Information We Collect**
 
@@ -13,7 +13,7 @@ Bioconductor is committed to protecting your privacy. This Privacy Policy explai
 - **Support Site**: We collect your name, email address, and any other information you provide when you post questions or comments.
 - **Developer Mailing List**: We collect your name and email address to manage your subscription to the mailing list.
 - **Website Cookies and Analytics**: We use cookies to enhance your experience and track website usage. You can opt out of cookies through your browser settings. We also track downloads and accesses to improve our services.
-- **Slack**: We collect your name, email address, and any other information you provide when you join our Slack workspace. We use Slack's paid subscription service, which complies with GDPR (see Slack GDPR Compliance).
+- **Zulip**: We collect your name, email address, and any other information you provide when you join our Zulip workspace. We use the free Zulip Cloud Standard service for open-source projects, which complies with GDPR (see [Zulip GDPR Compliance](https://zulip.com/help/gdpr-compliance)).
 - **Conference Registrations**: We collect your name, email address, payment information and any other information you provide, to manage your registration for conferences.
 - **CoC Incidents**: We collect your name, email address, and any other information you provide when you report an incident to the Code of Conduct group non-anonymously. Reports can also be made anonymously.
 - **Workshop Site/Login**: We collect your name, email address, and login credentials to manage your access to workshops on workshops.bioconductor.org 
@@ -36,7 +36,7 @@ We ensure that your information is protected with appropriate security technical
 
 **5. Third-Party Services**
 
-We use third-party services, such as Slack and GitHub, to provide our services. These services have their own privacy policies and comply with GDPR.
+We use third-party services, such as Zulip and GitHub, to provide our services. These services have their own privacy policies and comply with GDPR.
 
 **6. Your Rights**
 
