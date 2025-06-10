@@ -254,7 +254,7 @@ To cite the project as a whole, use
 Most questions are appropriate to ask on the [Bioconductor support
 site][support]. Package development questions are best asked on the [bioc-devel
 mailing list](https://stat.ethz.ch/mailman/listinfo/bioc-devel). The
-[Bioconductor slack](https://slack.bioconductor.org/) also has specialized
+[Bioconductor chat](https://chat.bioconductor.org/) also has specialized
 channels for areas of research that may be helpful.
 
 <h3 id = "social" class="faq">Connect With Bioconductor Community</h3>

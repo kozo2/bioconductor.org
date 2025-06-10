@@ -7,7 +7,7 @@ mission by
   core infrastructure for the _Bioconductor_ mission. Core
   infrastructure includes: all aspects of package addition,
   management, and distribution; end-user engagement (e.g., web,
-  support site, and slack); developer support; and development of
+  support site, and chat); developer support; and development of
   packages for use by the broader developer community.
 
 - Identifying and pursuing technical and scientific aspects of funding
@@ -181,6 +181,6 @@ minutes were maintained was on 2 May, 2019.
 
 ## Contact
 
-If you would like to contact the Technical Advisory Board please reach out to us on the Bioconductor slack
+If you would like to contact the Technical Advisory Board please reach out to us on the tech-advisory-board channel on the [Bioconductor community chat](https://chat.bioconductor.org/)
 
 <img src="/images/tab/tab.png" alt="TAB sticker" />
