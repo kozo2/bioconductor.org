@@ -32,7 +32,7 @@
   <div class="gallery-card">
     <img src="/images/coreTeamPic/JenniferWokaty.png"
           alt="Andres Wokaty" title="Andres Wokaty"/>
-    Jennifer Wokaty
+    Andres Wokaty
   </div>
   <div class="gallery-card">
   </div>
